@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="Tejada Guzmán Lucila Shayen">
+		<title>Formulario de Comentario</title>
+	</head>
+	<body>
+		<h1>Formulario de Comentario</h1>
+		<p><strong>Damos por finalizada la primera etapa del curso de costura.</strong><br>
+		Puedes dejarnos tu opinion sobre el equipo y las enseñansas aprendidas.<br>
+		Recuerda que no es obligatorio pero nos serviria tu opinion para mejorar nuestro rendimiento. Sobre todo si deseas continuar con el aprendizaje.</p>
+
+		<form>
+			<div>
+				<label for="name">Nombre</label>
+				<input type="text" name="name" id="name" placeholder="Ingresar Nombre Completo">
+			</div>
+			<div>
+				<label>Correo Electronico</label>
+				<input type="email" name="mail" id="mail" placeholder="Ingresar Correo">
+			</div>
+			<div>
+				<label for="coment">Comentario</label><br>
+				<textarea placeholder="Agregar comentario" name="coment" id="coment"></textarea>
+			</div>
+			<div>
+				<label>Calificación en estrellas</label><br>
+				<input type="radio" name="stars" value="01"><span>1</span>
+				<input type="radio" name="stars" value="02"><span>2</span>
+				<input type="radio" name="stars" value="03"><span>3</span>
+				<input type="radio" name="stars" value="04"><span>4</span>
+				<input type="radio" name="stars" value="05"><span>5</span>
+			</div>
+			<br>
+			<div>
+				<input type="submit">
+			</div>
+		</form>
+	</body>
+</html>
